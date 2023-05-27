@@ -4,14 +4,9 @@ import GreenWiseLogo from "public/images/logo-green-wise.svg";
 export const LogoGreenWise = () => {
   return (
     <div className="">
-      <Image
-        src={GreenWiseLogo}
-        width={131}
-        height={31}
-        alt="Green Wise Logo"
-        className="h-auto w-32 object-cover -z-50"
-        priority
-      />
+      <h2 className="text-white text-4xl font-extrabold font-display group-hover:text-black">
+        Green<span className="text-green-500">Wise</span>
+      </h2>
     </div>
   );
 };
