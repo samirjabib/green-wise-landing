@@ -1,7 +1,7 @@
 export const Footer = () => {
     return (
-      <div>
-        <h1>Footer</h1>
+      <div className="border-2 border-yellow-500">
+        <h1 >Footer</h1>
       </div>
     );
   };

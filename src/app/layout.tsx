@@ -1,6 +1,7 @@
 import "./globals.css";
 import { Manrope, Roboto_Mono, Playfair_Display } from "next/font/google";
 import clsx from "clsx";
+import { RootProviders } from "./common";
 
 const description =
   "Green wise empresa de consultoría ambiental que ofrece servicios de asesoría, consultoría y capacitación en materia ambiental.";
@@ -63,7 +64,7 @@ export default function RootLayout({
           playfairDisplay.variable
         )}
       >
-        {children}
+        <RootProviders>{children}</RootProviders>
       </body>
     </html>
   );

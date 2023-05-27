@@ -1,7 +1,9 @@
+import { Hero } from "./components";
+
 export default async function LandingPage() {
   return (
     <div>
-      <h1>Page</h1>
+      <Hero/>
     </div>
   );
 }
