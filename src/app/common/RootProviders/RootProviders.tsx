@@ -20,5 +20,5 @@ export const RootProviders = ({ children }: RootProvidersProps) => {
     window.scroll(0, 0);
   }, [pathname]);
 
-  return <div>{children}</div>;
+  return <main>{children}</main>;
 };

@@ -6,12 +6,10 @@ export default function LandingLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <main>
-        <Header />
-        {children}
-        <Footer />
-      </main>
-    </html>
+    <div>
+      <Header />
+      {children}
+      <Footer />
+    </div>
   );
 }
