@@ -1,13 +1,17 @@
 import { Footer, Header } from "../common";
 
-export default function Layout({ children }: { children: React.ReactNode }) {
+export default function LandingLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="en">
-      <body>
+      <main>
         <Header />
         {children}
         <Footer />
-      </body>
+      </main>
     </html>
   );
 }
