@@ -1,7 +1,13 @@
+import { HeroBackground } from "./HeroBackground";
+
 export const Hero = () => {
   return (
-    <div className="border-2 border-green-500">
-      <h1>Hero</h1>
+    <div className="" id="hero">
+      <HeroBackground />
+      <div>
+        <div>Card Float</div>
+        <div>Text Scrolll</div>
+      </div>
     </div>
   );
 };
