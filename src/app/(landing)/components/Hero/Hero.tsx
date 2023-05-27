@@ -5,8 +5,9 @@ export const Hero = () => {
     <div className="" id="hero">
       <HeroBackground />
       <div>
-        <div>Card Float</div>
-        <div>Text Scrolll</div>
+        <h1>Card Float</h1>
+        <p>Text Scrolll</p>
+        <button>submit</button>
       </div>
     </div>
   );
