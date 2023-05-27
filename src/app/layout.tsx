@@ -1,7 +1,7 @@
 import "./globals.css";
-import { Manrope, Roboto_Mono, Playfair_Display } from "next/font/google";
 import clsx from "clsx";
 import { RootProviders } from "./common";
+import { manrope, playfairDisplay, robotoMono } from "./fonts";
 
 const description =
   "Green wise empresa de consultoría ambiental que ofrece servicios de asesoría, consultoría y capacitación en materia ambiental.";
@@ -33,39 +33,25 @@ export const metadata = {
   //ADD TWITTER
 };
 
-const manrope = Manrope({
-  variable: "--font-manrope",
-  subsets: ["latin"],
-  display: "swap",
-});
-const robotoMono = Roboto_Mono({
-  variable: "--font-roboto",
-  subsets: ["latin"],
-  display: "swap",
-});
-
-const playfairDisplay = Playfair_Display({
-  variable: "--font-playfair",
-  subsets: ["latin"],
-  display: "swap",
-});
-
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body
-        className={clsx(
-          manrope.variable,
-          robotoMono.variable,
-          playfairDisplay.variable
-        )}
-      >
+    <html
+      lang="en"
+      className={clsx(
+        manrope.variable,
+        robotoMono.variable,
+        playfairDisplay.variable
+      )}
+    >
+      <head />
+      <body>
         <RootProviders>{children}</RootProviders>
       </body>
     </html>
   );
+
 }
