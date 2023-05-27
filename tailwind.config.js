@@ -1,4 +1,8 @@
-/** @type {import('tailwindcss').Config} */
+// @ts-check
+
+/**
+ * @type {import('tailwindcss').Config}
+ */
 module.exports = {
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -7,18 +11,15 @@ module.exports = {
     './src/stories/**/*.{js,ts,jsx,tsx,mdx}',
 
   ],
+  darkMode: 'class',
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
       fontFamily: {
         sans: ['var(--font-manrope)'],
         display: ['var(--font-playfair)'],
         roboto: ['var(--font-roboto)'],
       },
+
       container: {
         screens: {
           sm: '640px',
