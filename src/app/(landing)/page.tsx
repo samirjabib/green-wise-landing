@@ -1,7 +1,5 @@
 import { Metadata } from "next";
-import { Hero } from "./components";
-import { Services } from "./components/Services";
-import { Contact } from "./components/Contact";
+import { Hero, About, Contact, Services } from "./components";
 
 export async function generateMetadata(): Promise<Metadata> {
   const description =
@@ -18,6 +16,7 @@ export default async function LandingPage() {
     <>
       <Hero />
       <Services />
+      <About />
       <Contact />
     </>
   );
