@@ -6,8 +6,8 @@ export const Hero = () => {
   return (
     <div className="" id="hero">
       <HeroBackground />
-      <HeroTextBox />
       <HeroCard />
+      <HeroTextBox />
     </div>
   );
 };

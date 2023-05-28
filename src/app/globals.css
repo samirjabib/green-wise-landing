@@ -15,7 +15,7 @@
   }
 
   .wrapper {
-    @apply mx-auto px-8 xl:container;
+    @apply mx-auto px-12 xl:container;
   }
 
   .display-title {
@@ -35,6 +35,7 @@
 
 @layer components {
   .btn-main {
-    @apply inline-block px-4 py-2 rounded-md bg-blue-500 text-white;
+    @apply inline-block px-4 py-2 rounded-full bg-green-500 text-white;
+    transition: background-color 0.3s ease;
   }
 }
