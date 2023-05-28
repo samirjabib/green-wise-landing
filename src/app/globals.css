@@ -35,7 +35,6 @@
 
 @layer components {
   .btn-main {
-    @apply inline-block px-4 py-2 rounded-full bg-green-500 text-white;
-    transition: background-color 0.3s ease;
+    @apply px-8 py-3 rounded-full font-extrabold transition-all duration-200 hover:bg-green-600 shadow-xl;
   }
 }
