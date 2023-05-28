@@ -13,7 +13,7 @@ export const HeroTextBox = () => {
           permisos, gestión de riesgos y residuos. Expertos en tu servicio.
         </p>
         <div className="">
-          <button className="mt-4 bg-green-500 btn-main text-lg flex flex-row  gap-x-2 justify-center items-center">
+          <button className="mt-4 bg-green-500 btn-main text-lg flex flex-row  gap-x-2 justify-center items-center ">
             Contactanos
             <AiOutlineWhatsApp size={25} />
           </button>

@@ -3,7 +3,7 @@ import backgroundHero from "public/images/landing/background-landing.jpg";
 
 export const HeroBackground = () => {
   return (
-    <div className=" h-[90vh] relative">
+    <div className=" h-[85vh] relative">
       <div className="h-auto w-full">
         <Image
           src={backgroundHero}

@@ -6,6 +6,10 @@
   html {
     @apply font-sans font-medium;
   }
+
+  h1 h2 h3 h4 h5 h6 {
+    @apply font-roboto;
+  }
 }
 
 @layer utilities {
@@ -35,6 +39,10 @@
 
 @layer components {
   .btn-main {
-    @apply px-8 py-3 rounded-full font-extrabold transition-all duration-200 hover:bg-green-600 shadow-xl;
+    @apply px-8 py-3 rounded-full font-extrabold transition-all duration-200 hover:bg-green-600 shadow-2xl;
   }
+}
+
+body {
+  background-color: white;
 }
