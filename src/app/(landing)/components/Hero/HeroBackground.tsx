@@ -1,6 +1,12 @@
 import Image from "next/image";
 import backgroundHero from "public/images/landing/background-landing.jpg";
 
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+
 export const HeroBackground = () => {
   return (
     <div className=" h-[85vh] relative">
